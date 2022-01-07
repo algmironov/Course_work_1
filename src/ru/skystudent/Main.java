@@ -59,7 +59,7 @@ public class Main {
         employeeBook.findEmployeeById(9);
         System.out.println();
 
-        EmployeeBook.addNewEmployee("Гаврилов Сергей Сергеевич", 5, 89000f);
+        EmployeeBook.addEmployee("Гаврилов Сергей Сергеевич", 5, 89000f);
         EmployeeBook.printAllEmployees();
         System.out.println();
 

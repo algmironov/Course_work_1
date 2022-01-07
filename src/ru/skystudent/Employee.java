@@ -81,16 +81,4 @@ public class Employee {
         this.names = names;
     }
 
-
-//    public void showAllEployees() {
-//        for (int i = 0; i < id; i++) {
-//            Employee employee = Employee[i];
-//            System.out.println(employee[i].toString());
-//
-//        }
-//    }
-
-
-
-    
 }
