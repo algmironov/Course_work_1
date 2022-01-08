@@ -49,17 +49,21 @@ public class Main {
         System.out.println();
 
         EmployeeBook.increaseSalaryByPercent(10);
+        System.out.println();
         EmployeeBook.findEmployeeWithMinSalary();
 
         EmployeeBook.removeEmployee(8);
+        System.out.println();
         EmployeeBook.printAllEmployees();
         System.out.println();
 
-        employeeBook.getSize();
-        employeeBook.findEmployeeById(9);
+        EmployeeBook.getSize();
+        System.out.println();
+        EmployeeBook.findEmployeeById(9);
         System.out.println();
 
         EmployeeBook.addEmployee("Гаврилов Сергей Сергеевич", 5, 89000f);
+        System.out.println();
         EmployeeBook.printAllEmployees();
         System.out.println();
 
