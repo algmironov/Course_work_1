@@ -172,7 +172,7 @@ public class EmployeeBook {
     }
     public static void printSalaryExpensesInDepartment(int departmentId) {
 
-        System.out.println("Расходы на зарплату в месяц в " + departmentId + " отделе составляют: " + EmployeeBook.getSalaryExpensesInDepartment(departmentId) + " р.");
+        System.out.println("Расходы на зарплату в месяц в " + departmentId + " отделе составляют: " + getSalaryExpensesInDepartment(departmentId) + " р.");
     }
 
     public static void printAverageSalaryInDepartment(int departmentId) {
@@ -181,7 +181,7 @@ public class EmployeeBook {
             return;
         }else {
             float averageSalary = 0f;
-            averageSalary = EmployeeBook.getSalaryExpensesInDepartment(departmentId) / EmployeeBook.getEmployeesNumberInDepartment(departmentId);
+            averageSalary = getSalaryExpensesInDepartment(departmentId) / getEmployeesNumberInDepartment(departmentId);
             System.out.println("Средняя зарплата в " + departmentId + " отделе составляет: " + averageSalary + " р.");
         }
     }
