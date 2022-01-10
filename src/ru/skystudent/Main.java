@@ -16,81 +16,81 @@ public class Main {
         employeeBook.addEmployee("Рожкова Татьяна Алексеевна", 4, 91000f);
         employeeBook.addEmployee("Маринина Ольга Дмитриевна", 5, 95600f);
 
-        EmployeeBook.printAllEmployees();
+        employeeBook.printAllEmployees();
 
         System.out.println();
 
-        EmployeeBook.findEmployeeById(5);
+        employeeBook.findEmployeeById(5);
 
         System.out.println();
 
-        EmployeeBook.getSize();
+        employeeBook.getSize();
 
         System.out.println();
 
-        EmployeeBook.findEmployeeWithMaxSalary();
+        employeeBook.findEmployeeWithMaxSalary();
 
         System.out.println();
 
-        EmployeeBook.findEmployeeWithMinSalary();
+        employeeBook.findEmployeeWithMinSalary();
 
         System.out.println();
 
-        EmployeeBook.printSalaryExpenses();
+        employeeBook.printSalaryExpenses();
 
         System.out.println();
 
-        EmployeeBook.printAverageSalary();
+        employeeBook.printAverageSalary();
 
         System.out.println();
 
-        EmployeeBook.printNames();
+        employeeBook.printNames();
 
         System.out.println();
 
-        EmployeeBook.increaseSalaryByPercent(10);
+        employeeBook.increaseSalaryByPercent(10);
         System.out.println();
-        EmployeeBook.findEmployeeWithMinSalary();
+        employeeBook.findEmployeeWithMinSalary();
 
-        EmployeeBook.removeEmployee(8);
+        employeeBook.removeEmployee(8);
         System.out.println();
-        EmployeeBook.printAllEmployees();
-        System.out.println();
-
-        EmployeeBook.getSize();
-        System.out.println();
-        EmployeeBook.findEmployeeById(9);
+        employeeBook.printAllEmployees();
         System.out.println();
 
-        EmployeeBook.addEmployee("Гаврилов Сергей Сергеевич", 5, 89000f);
+        employeeBook.getSize();
         System.out.println();
-        EmployeeBook.printAllEmployees();
-        System.out.println();
-
-        EmployeeBook.findEmployeeWithMinSalaryInDepartment(1);
+        employeeBook.findEmployeeById(9);
         System.out.println();
 
-        EmployeeBook.findEmployeeWithMaxSalaryInDepartment(1);
+        employeeBook.addEmployee("Гаврилов Сергей Сергеевич", 5, 89000f);
+        System.out.println();
+        employeeBook.printAllEmployees();
         System.out.println();
 
-        EmployeeBook.printSalaryExpensesInDepartment(1);
+        employeeBook.findEmployeeWithMinSalaryInDepartment(1);
         System.out.println();
 
-        EmployeeBook.printAverageSalaryInDepartment(1);
+        employeeBook.findEmployeeWithMaxSalaryInDepartment(1);
         System.out.println();
 
-        EmployeeBook.increaseSalaryInDepartmentByPercent(1, 10);
-        EmployeeBook.printAverageSalaryInDepartment(1);
+        employeeBook.printSalaryExpensesInDepartment(1);
         System.out.println();
 
-        EmployeeBook.printEmployeesFromDepartment(1);
+        employeeBook.printAverageSalaryInDepartment(1);
         System.out.println();
 
-        EmployeeBook.editEmployee("Сергеев Николай Сергеевич", 95000, 4);
-        EmployeeBook.printAllEmployees();
+        employeeBook.increaseSalaryInDepartmentByPercent(1, 10);
+        employeeBook.printAverageSalaryInDepartment(1);
         System.out.println();
 
-        EmployeeBook.printAllEmployeesByDepartment();
+        employeeBook.printEmployeesFromDepartment(1);
+        System.out.println();
+
+        employeeBook.editEmployee("Сергеев Николай Сергеевич", 95000, 4);
+        employeeBook.printAllEmployees();
+        System.out.println();
+
+        employeeBook.printAllEmployeesByDepartment();
         System.out.println();
 
 
